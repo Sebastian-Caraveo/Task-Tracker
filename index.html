@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8" />
   <title>My Task Tracker</title>
-  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="tracker">
     <h1>My Task Tracker:</h1>
-    <div class="controls">
       <label for="taskInput">Task:</label>
-      <input id="taskInput" placeholder="Enter a task" type="text" />
+      <input id="taskInput"  type="text" />
       <button id="addBtn" type="button">+</button>
-      <button id="clearBtn" type="button">Clear</button>
-    </div>
+      <button id="clearBtn" type="button">-</button>
     <table>
-      <thead><tr><th>Number</th><th>Task</th></tr></thead>
-      <tbody id="taskList"></tbody>
+      <thead>
+        <tr>
+            <th>Number</th>
+            <th>Task</th>
+        </tr>
+    </thead>
+      <tbody> </tbody>
     </table>
   </main>
   <script src="script.js"></script>
