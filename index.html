@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Task Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="tracker">
+    <h1>My Task Tracker:</h1>
+    <div class="controls">
+      <label for="taskInput">Task:</label>
+      <input id="taskInput" placeholder="Enter a task" type="text" />
+      <button id="addBtn" type="button">Add</button>
+      <button id="clearBtn" type="button">Clear</button>
+    </div>
+    <table>
+      <thead><tr><th>Number</th><th>Task</th></tr></thead>
+      <tbody id="taskList"></tbody>
+    </table>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
