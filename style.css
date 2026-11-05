@@ -1,0 +1,10 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tracker{
+    display: flex;
+}
+.controls{
+    background-color: antiquewhite;
+    border: 1px black;
+}
